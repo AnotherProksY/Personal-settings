@@ -14,7 +14,7 @@ nnoremap <Leader>rc :%s/\<<C-r><C-w>\>/<C-r><C-w>           " rename words in al
 vnoremap <Leader>rc y:%s/<C-r>"/<C-r>"                      " same command for visual
 nnoremap <Esc> :nohlsearch<CR>                              " Disable highlight search results
 nnoremap \ :Lexplore<CR>                                    " Open Exporer (Netrw) on left side
-nnoremap <leader>" <cmd>registers<CR>                       " Show all registers
+nnoremap <silent> "" :registers "0123456789abcdefghijklmnopqrstuvwxyz*+.<CR> " Show all registers
 nnoremap gd <C-]>                                           " Go to definition
 
 " Center screen using zz while scrolling or incsearch

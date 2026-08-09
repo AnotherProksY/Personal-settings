@@ -1,5 +1,5 @@
 # Necessary Fish ENVs
-set -x PATH ~/bin /opt/homebrew/bin /opt/homebrew/sbin ~/.pyenv/bin $PATH
+set -x PATH ~/bin /opt/homebrew/bin /opt/homebrew/sbin ~/.pyenv/bin ~/.local/bin $PATH
 set -x EDITOR nvim
 set -x LC_ALL en_US.UTF-8
 set -x LANG en_US.UTF-8
@@ -7,29 +7,10 @@ set -x PASSWORD_STORE_ENABLE_EXTENSIONS true
 
 # Necessary Fish Bindings
 set fish_greeting
-# set -g fish_key_bindings fish_vi_key_bindings <-- VI Mode
 
 # Key bindings
 bind \cf accept-autosuggestion
 bind alt-backspace backward-kill-word
-# bind super-backspace backward-kill-line
-# bind super-left beginning-of-line
-# bind super-right end-of-line
-
-# Change Alacritty color after login sync with system theme
-if test "$ALACRITTY" = "true"
-    function theme
-        cat $HOME/.config/alacritty/$argv[1].toml > $HOME/.config/alacritty/active-theme.toml
-    end
-
-    set ALACRITTY_THEME (defaults read -g AppleInterfaceStyle 2>/dev/null; or echo "Light")
-
-    if test "$ALACRITTY_THEME" = "Dark"
-        theme "catppuccin-frappe"
-    else
-        theme "catppuccin-latte"
-    end
-end
 
 # Start the TMUX session if not already in the tmux session
 # Only for Alacritty terminal!
