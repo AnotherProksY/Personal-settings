@@ -52,6 +52,18 @@ vim.keymap.set("n", "<leader>8", "8gt", { desc = "Go to 8 tab" })
 vim.keymap.set("n", "<leader>9", "9gt", { desc = "Go to 9 tab" })
 vim.keymap.set("n", "<leader>0", "<cmd>tablast<CR>", { desc = "Go to last tab" })
 
+-- Open Quickfix list
+local function toggle_quickfix()
+  for _, win in ipairs(vim.fn.getwininfo()) do
+    if win.quickfix == 1 then
+      vim.cmd "cclose"
+      return
+    end
+  end
+  vim.cmd "copen"
+end
+vim.keymap.set("n", "<leader>w", toggle_quickfix, { desc = "Toggle quickfix list" })
+
 -- Keybinds to make split navigation easier in TMUX
 vim.keymap.set("n", "<C-h>", "<Cmd>NvimTmuxNavigateLeft<CR>", { desc = "Move focus to the left window", silent = true })
 vim.keymap.set("n", "<C-j>", "<Cmd>NvimTmuxNavigateDown<CR>", { desc = "Move focus to the right window", silent = true })
