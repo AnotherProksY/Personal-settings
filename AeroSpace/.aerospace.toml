@@ -1,3 +1,5 @@
+config-version = 2
+
 # Place a copy of this config to ~/.aerospace.toml
 # After that, you can edit ~/.aerospace.toml to your liking
 
@@ -216,6 +218,10 @@ run = ['move-node-to-workspace 2']
 
 [[on-window-detected]]
 if.app-id = 'com.todoist.mac.Todoist'
+run = ['move-node-to-workspace 2']
+
+[[on-window-detected]]
+if.app-id = 'com.TickTick.task.mac'
 run = ['move-node-to-workspace 2']
 
 [[on-window-detected]]
