@@ -28,6 +28,12 @@ Casks:
 brew install --casks tableplus telegram discord docker docker-desktop boop maccy the-unarchiver httpie font-sf-mono-nerd-font-ligaturized google-chrome nikitabobko/tap/aerospace ngrok bitwarden bettermouse cursor claude-code little-snitch termius ghostty tailscale-app maccy morgen perplexity obsidian google-drive
 ```
 
+### После выполнить команду
+
+```bash
+chezmoi init https://$GITHUB_USERNAME:$GITHUB_PASS_TOKEN@github.com/$GITHUB_USERNAME/dotfiles-private.git
+```
+
 ## Другие программы
 
 1. [Microsoft Excel](https://apps.apple.com/ru/app/microsoft-excel/id462058435?l=en&mt=12)
