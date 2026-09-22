@@ -1,0 +1,26 @@
+~/.config/nvim/lazy-lock.json
+
+# Claude Code — машинное состояние, кэши, транскрипты
+~/.claude.json
+~/.claude/.last-cleanup
+~/.claude/backups
+~/.claude/cache
+~/.claude/downloads
+~/.claude/file-history
+~/.claude/history.jsonl
+~/.claude/image-cache
+~/.claude/mcp-needs-auth-cache.json
+~/.claude/paste-cache
+~/.claude/plugins
+~/.claude/policy-limits.json
+~/.claude/security
+~/.claude/session-env
+~/.claude/sessions
+~/.claude/settings.local.json
+~/.claude/shell-snapshots
+~/.claude/telemetry
+
+# из projects/ нужна только memory/, транскрипты — нет
+~/.claude/projects/**
+!~/.claude/projects/*/memory
+!~/.claude/projects/*/memory/**
