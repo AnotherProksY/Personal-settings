@@ -46,6 +46,7 @@ chezmoi init https://$GITHUB_USERNAME:$GITHUB_PASS_TOKEN@github.com/$GITHUB_USER
 7. [Amphetamine](https://apps.apple.com/ru/app/amphetamine/id937984704?l=en-GB&mt=12)
 8. [iA Writer](https://apps.apple.com/kz/app/ia-writer/id775737590?mt=12)
 9. [Todoist](https://apps.apple.com/kz/app/todoist-to-do-list-calendar/id585829637?mt=12)
+10. [LinkMyMac](https://apps.apple.com/kz/app/linkmymac/id6755784154)
 
 ## Better Mouse
 
