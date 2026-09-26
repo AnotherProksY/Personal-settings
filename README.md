@@ -18,7 +18,7 @@ brew tap shaunsingh/SFMono-Nerd-Font-Ligaturized
 brew tap FelixKratz/formulae
 brew install tree-sitter-cli
 
-brew install --formula tree git htop btop tmux ctags fzf telnet mosh vim nmap mczachurski/wallpapper/wallpapper git-lfs ripgrep neovim npm lazygit diff-so-fancy fish gh mole fd yazi imagemagick-full chezmoi netwatch iperf3 mtr node wget poppler sevenzip
+brew install --formula tree git htop btop tmux ctags fzf telnet mosh vim nmap mczachurski/wallpapper/wallpapper git-lfs ripgrep neovim npm lazygit diff-so-fancy fish gh mole fd yazi imagemagick-full chezmoi netwatch iperf3 mtr node wget poppler sevenzip rainfrog
 
 /usr/local/opt/fzf/install
 ```
