@@ -18,7 +18,7 @@ brew tap shaunsingh/SFMono-Nerd-Font-Ligaturized
 brew tap FelixKratz/formulae
 brew install tree-sitter-cli
 
-brew install --formula tree git htop btop tmux ctags fzf telnet mosh vim nmap mczachurski/wallpapper/wallpapper git-lfs ripgrep neovim npm lazygit diff-so-fancy fish gh mole fd yazi imagemagick-full chezmoi netwatch iperf3 mtr node wget poppler sevenzip rainfrog
+brew install --formula tree git htop btop tmux ctags fzf telnet mosh vim nmap mczachurski/wallpapper/wallpapper git-lfs ripgrep neovim npm lazygit diff-so-fancy fish gh mole fd yazi imagemagick-full chezmoi netwatch iperf3 mtr node wget poppler sevenzip
 
 /usr/local/opt/fzf/install
 ```
@@ -27,6 +27,12 @@ Casks:
 
 ```bash
 brew install --casks tableplus telegram docker boop the-unarchiver httpie font-sf-mono-nerd-font-ligaturized google-chrome nikitabobko/tap/aerospace ngrok bitwarden bettermouse claude-code termius ghostty tailscale-app obsidian firefox yandex google-drive
+```
+
+Python formula:
+
+```bash
+pip install sqlit-tui
 ```
 
 ### После выполнить команду
