@@ -35,6 +35,12 @@ Python formula:
 pipx install sqlit-tui
 ```
 
+Yazi plugins:
+
+```
+ya pkg add yazi-rs/plugins:full-border
+```
+
 ### После выполнить команду
 
 ```bash
