@@ -32,7 +32,7 @@ brew install --casks tableplus telegram docker boop the-unarchiver httpie font-s
 Python formula:
 
 ```bash
-pipx install sqlit-tui
+pipx install sqlit-tui[ssh]
 ```
 
 Yazi plugins:
